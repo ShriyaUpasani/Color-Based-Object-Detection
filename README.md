@@ -14,7 +14,7 @@ This project focuses on using color representations and histograms to detect and
   - [Creating Histograms](#creating-histograms)
   - [Histogram Matching](#histogram-matching)
   - [Object Localization](#object-localization)
-
+- [Working](#working)
 
 ## Overview
 This program reads an input image containing multiple colorful objects and a library of object images. It detects and localizes objects from the library within the input image using color histograms.
@@ -39,7 +39,7 @@ InputImage.rgb: The input image file containing multiple objects.
 object1.rgb, object2.rgb, ..., objectn.rgb: The list of object images in the library.
 
 ## Examples
-javac ImageDisplay.java; java ImageDisplay "multi_object_test_new\multi_object_test_new\update_rgb\Pikachu_and_Oswald_v2.rgb" "testImages\dataset\dataset\data_sample_rgb\Oswald_object.rgb" "testImages\dataset\dataset\data_sample_rgb\pikachu_object.rgb"
+javac ImageDisplay.java; java ImageDisplay "testImages\multi_object_test_new\multi_object_test_new\update_rgb\Pikachu_and_Oswald_v2.rgb" "testImages\dataset\dataset\data_sample_rgb\Oswald_object.rgb" "testImages\dataset\dataset\data_sample_rgb\pikachu_object.rgb"
 
 ## Implementation Details
 #### Creating Histograms
@@ -55,3 +55,4 @@ javac ImageDisplay.java; java ImageDisplay "multi_object_test_new\multi_object_t
 - Display a bounding box around the detected object to indicate its location.
 
 ## Working
+![image](https://github.com/user-attachments/assets/b982d002-cb69-4489-bf9b-164667be76f2)
